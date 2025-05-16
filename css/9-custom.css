@@ -1,0 +1,129 @@
+.bannerBg{
+    background-color: var(--nc-tx-2);
+	padding: 1rem 0;
+	margin-bottom: 1rem;
+	color: var(--nc-bg-2);
+}
+.dwn{
+	margin-top: 5rem;
+	max-width: 70%;
+}
+header {
+	background: var(--nc-bg-s);
+	border-bottom: 1px solid var(--nc-bg-3);
+	padding: 2rem 1.5rem;
+}
+.infoH {
+	background: var(--nc-tx-2);
+	border-bottom: 1px solid var(--nc-bg-3);
+	padding: 2rem 1.5rem;
+	color: var(--nc-bg-s);
+}
+.infoM h3{
+	color: var(--nc-bg-s);
+	text-align: center;
+}
+.infoD {
+	/* Make the <details> look more "clickable" */
+	padding: .6rem 1rem;
+	background: var(--nc-bg-2);
+	border: 1px solid var(--nc-bg-3);
+	border-radius: 4px;
+	color: var(--nc-tx-2);
+}
+
+.amgslide img{
+	margin-bottom: 3rem;
+	border: 8px solid;
+	border-color: black;
+}
+.amgred{
+	max-width: 20%;
+	max-height: 5%;
+}
+.amgredtop{
+	max-width: 20%;
+	max-height: 5%;
+	padding-top: 1.5rem;
+	padding-left: 84.5rem;
+}
+
+header h1,
+header h2,
+header h3 {
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 0;
+	border-bottom: 0;
+}
+
+
+
+header > *:first-child {
+	margin-top: 3rem;
+	padding-top: 0;
+}
+
+header > *:last-child {
+	margin-bottom: -2.4rem;
+}
+.value,
+.center{
+	text-align: center;
+}
+.value h1{
+	margin: 0 auto;
+	width: 5rem;
+	padding:1.5rem .3rem;
+	border-radius: 50%;
+	background-color: var(--nc-bg-2);
+}
+.value h3{
+	color: var(--nc-bg-s);
+}
+.svgLogo{
+	display: block;
+	width: 7rem;
+	margin: 0 auto;
+	
+}
+.iconLogo {
+	display: block;
+	width: 5rem;
+	margin: 0 auto;
+}
+.iconLogo span{
+	font-size: 5rem;
+	color: var(--red-bg-);
+}
+@media screen and (min-width:60rem){
+	header > *:last-child {
+		margin-bottom: -2.9rem;
+	}
+	header > *:first-child {
+		margin-top: 6rem;
+		padding-top: 0;
+	}
+	
+	
+}
+@media screen and (min-width:100rem){
+	header > *:first-child {
+		margin-top: 9rem;
+	}
+}
+
+@media screen and (min-width: 20rem){
+	header {
+		background: var(--nc-bg-s);
+		border-bottom: 1px solid var(--nc-bg-3);
+		padding: 2rem 1.5rem;
+		margin-bottom: 32px;
+	}
+	.amgslide img{
+		margin-bottom: 3rem;
+		border: 8px solid;
+		border-color: black;
+		max-width: 95%;
+	}
+}
